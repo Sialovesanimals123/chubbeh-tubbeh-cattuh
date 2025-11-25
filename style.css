@@ -1,0 +1,53 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+
+#body2{
+    background-color: aliceblue;
+    text-align: center;
+}
+
+h1{
+   
+}
+
+button{
+    border-radius: 30px;
+    color: beige;
+    font-size: 22px;
+    background-color: rgb(93, 78, 59);
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 370px;
+    box-align: right;
+}   
+
+#airplanemode {
+    width: 500px;
+}
+
+#head{
+ font-family: "Sniglet", system-ui;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 60px;
+  color:white;
+}
+
+#cattalk {
+  font-family: "Sniglet", system-ui;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 30px;
+  color:white;
+}
+
+#prop1,#prop2, #prop3{
+    width: 150px;
+   
+}
+#money {
+    color:white;
+}

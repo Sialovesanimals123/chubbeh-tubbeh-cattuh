@@ -1,0 +1,78 @@
+<!-- it should have a cat image. button to feed it. button to gain points from playing games. button cat bow. button to make cat meow. button to pet the cat -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Chubby Cat</title>
+        <script src="p5.js"></script>
+        <script src="p5.dom.min.js"></script>
+        <script src="p5.sound.min.js"></script>
+        <script src="./p5.play.js"></script>
+        <link rel="stylesheet" href="style.css">
+
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pixelify+Sans:wght@400..700&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+       
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Sniglet:wght@400;800&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    </head>
+
+
+
+    <body>
+        <script src="script.js"></script>
+        <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+        <df-messenger
+        chat-icon="https:&#x2F;&#x2F;media.tenor.com&#x2F;HmFcGkSu58QAAAAM&#x2F;silly.gif"
+        intent="WELCOME"
+        chat-title="Hello! chubby cat speaking"
+        agent-id="fec44255-e24a-4f9e-9b9e-fb0bbb1b5c56"
+        language-code="en"
+        ></df-messenger>
+
+        <h1 id="head">Chubby cat</h1>
+        <br>
+        <h2 id="money">$$$MoneY$$$ -> 0</h2>   <button onclick="EarnPoints()">Earn Points</button>
+        <br>
+        
+      
+        <button onclick="FeedMe()">Feed Me [$50]</button>
+        <!-- do rhis as your hw -->
+        
+        <button onclick="WaterMe()">Water Pwees [$40]</button>  
+        
+        <button onclick="DressMeUp()">Dress Me Up [$100]</button>
+        <br>
+        <img src="assets/hat.png" id="prop1" onclick="hat()" hidden/>
+        <img src="assets/preppyness.png" id="prop2" onclick="bow()" hidden/>
+        <img src="assets/fairywing.png" id="prop3" id="" onclick="wings()" hidden/>
+        <br>
+        
+        <button onclick="WatchThis()">Watch This! [$20]</button>
+       
+        <button onclick="sleepytime()">Put Me To Sleep [$100]</button>
+        <button onclick="bathtime()">Bathtime [$367]</button>
+
+
+        
+       
+        <h4 id="cattalk">  </h4>
+        
+        <img src="assets/cat.gif" id="airplanemode"></img>
+        
+       
+
+        
+//hw go get bear traps and setup if condition when the cat touches the bear trap
+
+
+    </body>
+
+
+</html>
+
+
